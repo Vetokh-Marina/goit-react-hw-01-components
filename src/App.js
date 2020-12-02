@@ -5,6 +5,8 @@ import Statistics from './components/Statistics/Statistics';
 import statisticalData from './components/Statistics/statistical-data.json';
 import FriendList from './components/FriendList/friendList';
 import friends from './friends.json';
+import transactions from './components/TransactionHistory/transactions.json';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory';
 
 
 
@@ -24,8 +26,10 @@ import friends from './friends.json';
       <Section>
         <FriendList friends={friends} />;
       </Section>
-      
-      {/* <TransactionHistory items={transactions} /> */}
+      <Section >
+          <TransactionHistory items={transactions} />
+      </Section>
+    
     </Section>
   );
  }

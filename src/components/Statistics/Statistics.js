@@ -18,7 +18,7 @@ function Statistics({ title, stats }) {
     );
 }
 
-Statistics.PropTypes = {
+Statistics.propTypes = {
     title: PropTypes.string,
     stats: PropTypes.arrayOf(
         PropTypes.shape({
