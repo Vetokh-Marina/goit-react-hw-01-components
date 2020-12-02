@@ -3,6 +3,8 @@ import Profile from './components/Profile/profile';
 import Section from './components/Section/section';
 import Statistics from './components/Statistics/Statistics';
 import statisticalData from './components/Statistics/statistical-data.json';
+import FriendList from './components/FriendList/friendList';
+import friends from './friends.json';
 
 
 
@@ -19,13 +21,10 @@ import statisticalData from './components/Statistics/statistical-data.json';
     <Section>
         <Statistics title="Upload stats" stats={statisticalData} />;
       </Section>
-      {/* <Section>
+      <Section>
         <FriendList friends={friends} />;
-      </Section> */}
+      </Section>
       
-
-      {/* <FriendList friends={friends} /> */}
-
       {/* <TransactionHistory items={transactions} /> */}
     </Section>
   );
